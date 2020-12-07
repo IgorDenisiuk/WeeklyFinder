@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet var monthTF: UITextField!
     @IBOutlet var yearTF: UITextField!
     @IBOutlet var resultLabel: UILabel!
+    
+    @IBOutlet var findDay: UIButton!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        findDay.layer.cornerRadius = 10
+    }
 
     @IBAction func findDay(_ sender: UIButton) {
         
